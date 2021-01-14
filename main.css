@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: beige;
+  font-family: 'PT Sans', sans-serif;
+}
+
+
+
+#bannerimage {
+  width: 100%;
+  height: 200px;
+  background-image: url(img/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  padding-top: 60px;
+  font-family: monospace;
+}
+
+.container {
+  width: 100%;
+}
+
+
+
+.contact-area {
+  width: 40%;
+  padding: 60px;
+  float: left;
+}
+
+.contact {
+  background: rgba(253,190,131);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+label{
+  font-family: monospace;
+  font-weight: 500;
+  font-size: 16px;
+  margin: 5px;
+  color: olivedrab;
+  
+}
+
+.field, textarea {
+  padding: 5px;
+  width: 100%;
+  margin: 5px;
+  border-style:none;
+  border-radius: 10px;
+  color: steelblue;
+ 
+}
+
+ .button {
+   width: 100px;
+  padding: 5px;
+  border-style: none;
+   border-radius: 5px;
+  background:#4C4CFF;
+  color:#fff;
+   margin: 0 auto;
+  font-size: 18px;
+   display: block;
+}
+
+.field:hover, textarea:hover{
+   background: rgba(218,231,255);
+  cursor: pointer;
+}
+
+.button:hover{
+  background: purple;
+}
+
+.map {
+  width: 60%;
+  padding: 80px;
+  float: right;
+}
+
+.clearfix {
+  clear:both;
+}
+
+footer {
+ background: #302D2D;
+ padding: 15px;
+}
+
+.contact-text {
+  padding-top: 50px;
+  color: steelblue;
+}
+
+.contact-phone {
+  color: steelblue;
+  padding-top: 10px;
+}
+
+.copyright {
+  text-align: center;
+  color: beige;
+ font-size: 14px;
+}
+
+   footer a {
+   color: #fff;
+}
+
+.social-icons {
+  display: inline-block;
+  padding: 10px;
+  margin-left: 300px;
+}
+    
+    
+
+
+
+
+ 
+
